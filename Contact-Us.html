@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Sports Shop</title>
+    <style>
+      .contact-info,
+      .contact-form {
+        padding: 20px;
+        text-align: center;
+        background-color: #87ceeb; /* Sky blue */
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      .contact-form form {
+        max-width: 600px;
+        margin: auto;
+      }
+
+      .contact-form label {
+        display: block;
+        margin-top: 20px;
+      }
+
+      .contact-form input[type="text"],
+      .contact-form input[type="email"],
+      .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+
+      .contact-form button {
+        margin-top: 20px;
+        background-color: #0082e6;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .contact-form button:hover {
+        background-color: #0056b3;
+      }
+      a {
+        font-size: 36px;
+        text-decoration: none;
+        color: #a4036f;
+      }
+      a:hover {
+        font-size: 36px;
+        text-decoration: none;
+        color: #f29e4c;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <a href="index.html">Home</a>
+        </ul>
+      </nav>
+    </header>
+    <section class="contact-info">
+      <h2>We're Here to Help</h2>
+      <p>
+        Have questions about our products or need assistance with your order?
+        Fill out the form below or reach out to us through any of the methods
+        listed. We're always happy to assist!
+      </p>
+    </section>
+    <section class="contact-form">
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <footer>
+      <p>&copy; 2024 Gandhi Sports Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
